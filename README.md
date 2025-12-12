@@ -1,1 +1,1 @@
-This is my first basics of html assignment from pwksills. The assignment helps me in refreshing the contents and gaining more knowledge about the html.
+This assignment contains basics of HTML, by solving this assignment it helps in refreshing basics of html and gaining more knowledge about the contents
