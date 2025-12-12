@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile page</title>
+  </head>
+  <body>
+    <!-- 2. You’re building a small personal profile page. Which HTML tags will you 
+            use to highlight your name as a heading, describe yourself in a paragraph, and 
+            emphasize a key skill? -->
+    <h2>Sripad Jujar</h2>
+    <p>
+      Myself Sripad, currently purusing my B.tech in computer science and
+      passionate about developing interactive and responsive web pages.
+      Currently i am exploring mern stack which has helped me in understanding
+      how does a web page work and how to create a basic web page
+    </p>
+    <p>
+      One of my great skill is <em>Solving Unknown-Problems</em> which helps in
+      deeper understanding the concepts and helps in gaining more knowledge and
+      hands-on experience
+    </p>
+    <br />
+    <br />
+
+    <!-- 4. You’re creating a form that asks the user to enter their name, select their 
+            country from a list, and click a button to submit. Write the HTML code for this.-->
+    <form>
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="Name" placeholder="Enter your name" />
+      <br />
+      <br />
+      <label for="country">Select Country :</label>
+      <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="Nepal">Nepal</option>
+        <option value="USA">USA</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- 5. Write short HTML code to show your favorite fruits in a bulleted list and 
+            your top 3 programming languages in a numbered list.  -->
+    <h3>My Favorite Fruits</h3>
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Strawberry</li>
+      <li>Kiwi</li>
+    </ul>
+
+    <h3>Top 3 Programming Languages</h3>
+    <ol>
+      <li>Python</li>
+      <li>Java</li>
+      <li>Javascript</li>
+    </ol>
+
+    <!-- 7. Here’s a form snippet. Can you spot the error and rewrite the correct version?
+         <form> 
+          <input name="email"> 
+          <select> 
+          <option>India</option> 
+          </select> 
+          <button>Send</buton> 
+          </form>  
+        
+      - The error is incomplete button tag or spelling mistake of button  -->
+    <form>
+      <input name="email" />
+      <select>
+        <option>India</option>
+      </select>
+      <button>Send</button>
+    </form>
+  </body>
+</html>
